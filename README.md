@@ -2,7 +2,7 @@
 This is how to setup brightness control of RPI Official Touchscreen 7" display via GPIO Trigger (GPIO PIN 3 = Ignition and GPIO 15 = Car Headlights)
 
 1. create new systemd service that will starting on boot of RPI   
-`sudo nano /opt/etc/systemd/system/illumination.service`
+`sudo nano /etc/systemd/system/illumination.service`
 2. paste content of https://github.com/slavojoi/rpi-gpio-brightness-control/blob/main/illumination.service   
 3. create variable file   
 `sudo nano /opt/illumination/illumination_env.sh`
