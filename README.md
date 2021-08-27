@@ -15,5 +15,5 @@ This is how to setup brightness control of RPI Official Touchscreen 7" display v
 8. Make sure the permissions on the script and the service file are correct. They should be owned by root and the script should be executable.   
 9. `sudo chmod 744 /opt/illumination/service_illumination.sh`
 10. `sudo chmod 744 /opt/illumination/illumination_env.sh`
-11. `sudo chmod 644 /opt/etc/systemd/system/illumination.service`
+11. `sudo chmod 644 /etc/systemd/system/illumination.service`
 12. `sudo systemctl enable illumination.service`
