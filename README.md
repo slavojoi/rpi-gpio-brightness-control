@@ -4,7 +4,9 @@ This is how to setup brightness control of RPI Official Touchscreen 7" display v
 1. create new systemd service that will starting on boot of RPI   
 `sudo nano /etc/systemd/system/illumination.service`
 2. paste content of https://github.com/slavojoi/rpi-gpio-brightness-control/blob/main/illumination.service   
-3. create variable file   
+3. create illumination folder in opt
+`sudo mkdir /opt/illumination`
+4. create variable file   
 `sudo nano /opt/illumination/illumination_env.sh`
 5. paste content of https://github.com/slavojoi/rpi-gpio-brightness-control/blob/main/illumination_env.sh
 6. create script
